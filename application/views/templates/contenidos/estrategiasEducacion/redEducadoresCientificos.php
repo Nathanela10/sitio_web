@@ -195,7 +195,7 @@ if (!defined('BASEPATH')) exit('No direct script access allowed');
                     <div class="content col-lg-6 col-md-12 col-sm-12 col-xs-12">
                         <br><br><br><br><br>
                         <h4>
-                            Cuento ¿Qué pasa al interior fr una nube?.
+                            Cuento ¿Qué pasa al interior de una nube?.
                         </h4>
                         <br>
                         <p>
