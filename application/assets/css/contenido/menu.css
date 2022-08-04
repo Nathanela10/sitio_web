@@ -1,0 +1,369 @@
+/************************************
+******* MOVILES PEQUEÑOS *************
+ ************************************/
+body
+{
+    background-color: rgb(8,31,45);
+}
+
+.menu{
+    padding-top:    90px;
+    height:         100%;
+    margin:         0;
+}
+
+.contenidoMenu{
+    width:              65px;
+    background-color:   rgb(8,31,45);
+    z-index:            2;
+    position:           fixed;
+    height:             100%;
+    margin-top:         20px;/*45px;*/
+}
+
+.panel_menu .icono_menu{
+    border-style:           solid;
+    border-bottom-width:    1px;
+    margin-bottom:	        3px;
+    border-bottom-color:    rgba(155,210,223,.20);
+    width: 100%;
+    height: auto;
+}
+
+.panel_menu ul
+{
+    list-style: 		none;
+    padding-left:		0%;
+}
+
+.panel_menu ul li a
+{
+    position: 			relative;
+    display: 			block;
+    background: 		rgb(8,31,45);
+}
+
+.panel_menu ul li ul.drop-down
+{
+    display: 			none;
+    position: 			absolute;
+    top: 				0;
+    left: 				100%;
+    bottom: 			0;
+    background: 		rgba(8,31,45, .92);
+    -webkit-transition: all .25s ease-in-out;
+    -moz-transition: 	all .25s ease-in-out;
+    -o-transition: 		all .25s ease-in-out;
+    transition: 		all .25s ease-in-out;
+    overflow: 			auto;
+    width:              520%;
+    height:             -webkit-fill-available;
+}
+
+.panel_menu ul li ul.drop-down li
+{
+    border-top: 		2px solid rgba(255, 255, 255, .10);
+}
+
+.panel_menu ul li ul.drop-down li:first-child
+{
+    border-top: 		none;
+}
+
+.panel_menu ul li ul.drop-down li.list-title
+{
+    color:              #fff;
+    text-transform:     uppercase;
+    height:             50px;
+    font-size:          medium;
+    padding-top:        15px;
+    padding-left:       20px;
+}
+
+.panel_menu ul li ul.drop-down li a
+{
+    padding-top:        13px;
+    padding-left:       25px;
+    color:              #999;
+    background:         rgba(8,31,45,0);
+    height:             45px;
+    font-size:          medium;
+}
+
+.panel_menu ul li ul.drop-down li a:hover
+{
+    background: 		rgba(0, 0, 0, .5);
+    color: 				#fff;
+}
+
+.panel_menu ul li ul.drop-down li i
+{
+    float:				right;
+}
+
+.color_submenu ul li
+{
+    background: 		rgba(82,183,196, .20);
+}
+
+a[data-title]:hover:after
+{
+    background: 		rgba(8,31,45,.9);
+    border-radius: 		5px;
+    color: 				#fff;
+    content: 			attr(data-title);
+    top: 				20%;
+    left:				100%;
+    padding: 			5px 15px;
+    position: 			absolute;
+    z-index: 			98;
+    white-space: 		nowrap;
+    display:            inherit;
+}
+
+
+
+/*************************************
+****** MOVILES GRANDES - VERTICAL ****
+*************************************/
+
+@media (min-width: 820px) and (orientation: portrait){
+
+    .menu{
+        padding-top:165px;
+    }
+
+    .contenidoMenu{
+        width:      145px;
+        position:   fixed;
+        margin-top: 49px;
+    }
+
+    .panel_menu .icono_menu{
+        border-bottom-width: 1.5px;
+    }
+
+    .panel_menu ul li ul.dropown
+    {
+        width:              560%;
+    }
+
+    .panel_menu ul li ul.drop-down li
+    {
+        border-top: 	4px solid rgba(255, 255, 255, .10);
+    }
+
+    .panel_menu ul li ul.drop-down li.list-title
+    {
+        height:         145px;
+        font-size:      xxx-large;
+        padding-top:    47px;
+        padding-left:   35px;
+    }
+
+    .panel_menu ul li ul.drop-down li a
+    {
+        padding-top:    28px;
+        padding-left:   55px;
+        height:         100px;
+        font-size:      xx-large;
+    }
+
+    a[data-title]:hover:after
+    {
+        display:        none;
+    }
+}
+
+/*********************************************
+** MOVILES GRANDES - HORIZONTAL Y TABLETS ****
+**********************************************/
+
+@media(min-width: 820px) and (orientation: landscape){
+
+    .menu{
+        padding-top:114px;
+    }
+
+    .contenidoMenu{
+        width:      65px;
+        position:   absolute;
+        margin-top: 22px;
+    }
+
+    .panel_menu .icono_menu{
+        border-bottom-width: 1.5px;
+    }
+
+    .panel_menu ul li ul.drop-down
+    {
+        width:              600%;
+    }
+
+    .panel_menu ul li ul.drop-down li
+    {
+        border-top: 	3px solid rgba(255, 255, 255, .10);
+    }
+
+    .panel_menu ul li ul.drop-down li.list-title
+    {
+        height:         65px;
+        font-size:      large;
+        padding-top:    20px;
+        padding-left:   35px;
+    }
+
+    .panel_menu ul li ul.drop-down li a
+    {
+        padding-top:    15px;
+        padding-left:   45px;
+        height:         55px;
+        font-size:      large;
+    }
+
+    a[data-title]:hover:after
+    {
+        display:            none;
+    }
+}
+
+/*********************************************
+****** PANTALLA ESCRITORIO TAMAÑO NORMAL *****
+**********************************************/
+
+@media (min-width: 992px) {
+
+    .menu{
+        padding-top:108px;
+    }
+
+    .contenidoMenu{
+        width: 60px;
+        position: fixed;
+        margin-top: 25px;
+    }
+
+    .panel_menu .icono_menu{
+        border-bottom-width: 0.5px;
+    }
+
+    .panel_menu ul li ul.drop-down
+    {
+        width:          450%;
+    }
+
+    .panel_menu ul li ul.drop-down li
+    {
+        border-top: 	3px solid rgba(255, 255, 255, .10);
+    }
+
+    .panel_menu ul li ul.drop-down li.list-title
+    {
+        height:         55px;
+        font-size:      large;
+        padding-top:    20px;
+        padding-left:   35px;
+    }
+
+    .panel_menu ul li ul.drop-down li a
+    {
+        padding-top:    15px;
+        padding-left:   45px;
+        height:         55px;
+        font-size:      medium;
+    }
+
+    a[data-title]:hover:after
+    {
+        display:            inherit;
+    }
+}
+
+/***************************************
+****** PANTALLA ESCRITORIO GRANDES *****
+****************************************/
+
+@media (min-width: 1200px) {
+
+    .menu{
+        padding-top:97px;
+    }
+
+    .contenidoMenu{
+        width:      60px;
+        position:   fixed;
+        margin-top: 25px;
+    }
+
+    .panel_menu .icono_menu{
+        border-bottom-width: 0.5px;
+    }
+
+    .panel_menu .icono_menu{
+        border-style:           solid;
+        border-bottom-width:    0.5px;
+        margin-bottom:	        3px;
+        border-bottom-color:    rgba(155,210,223,.20);
+        width:                  100%;
+        height:                 auto;
+    }
+
+    .panel_menu ul
+    {
+        list-style: 		none;
+        padding-left:		0%;
+    }
+
+    .panel_menu ul li a
+    {
+        position: 			relative;
+        display: 			block;
+        background: 		rgb(8,31,45);
+    }
+
+    .panel_menu ul li ul.drop-down
+    {
+        display: 			none;
+        position: 			absolute;
+        top: 				3px;
+        left: 				100%;
+        bottom: 			0;
+        background: 		rgba(8,31,45, .92);
+        -webkit-transition: all .25s ease-in-out;
+        -moz-transition: 	all .25s ease-in-out;
+        -o-transition: 		all .25s ease-in-out;
+        transition: 		all .25s ease-in-out;
+        overflow: 			auto;
+        width:              560%;
+    }
+
+    .panel_menu ul li ul.drop-down li
+    {
+        border-top: 		2px solid rgba(255, 255, 255, .10);
+    }
+
+    .panel_menu ul li ul.drop-down li:first-child
+    {
+        border-top: 		none;
+    }
+
+    .panel_menu ul li ul.drop-down li.list-title
+    {
+        color:              #fff;
+        text-transform:     uppercase;
+        height:             57px;
+        font-size:          large;
+        padding-top:        20px;
+        padding-left:       18px;
+    }
+
+    .panel_menu ul li ul.drop-down li a
+    {
+        padding-top:    10px;
+        padding-left:   30px;
+        color:          #999;
+        background:     rgba(8,31,45,0);
+        height:         42px;
+        font-size:      medium;
+    }
+}

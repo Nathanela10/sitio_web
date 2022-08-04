@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>Buenos Aires - Barbosa.kmz</name>
+	<Style id="s_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="m_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin_hl">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Folder>
+		<name>Buenos Aires - Barbosa</name>
+		<open>1</open>
+		<Placemark>
+			<name>Punto de encuentro 1 - Potrero</name>
+			<LookAt>
+				<longitude>-75.32713106521749</longitude>
+				<latitude>6.432633311816248</latitude>
+				<altitude>0</altitude>
+				<heading>0.0004125226192970178</heading>
+				<tilt>0.6702118154522486</tilt>
+				<range>142.6456777719087</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-75.32707727430807,6.432498725837696,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Alarma sonora</name>
+			<LookAt>
+				<longitude>-75.32743924000692</longitude>
+				<latitude>6.432694670956494</latitude>
+				<altitude>0</altitude>
+				<heading>0.000377997473179221</heading>
+				<tilt>0.6702118154527924</tilt>
+				<range>142.6456777732341</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-75.32774924249954,6.432751373308082,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Estación de nivel</name>
+			<LookAt>
+				<longitude>-75.32743924000692</longitude>
+				<latitude>6.432694670956494</latitude>
+				<altitude>0</altitude>
+				<heading>0.000377997473179221</heading>
+				<tilt>0.6702118154527924</tilt>
+				<range>142.6456777732341</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-75.32768846018837,6.432785421343006,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Punto de encuentro alterno</name>
+			<LookAt>
+				<longitude>-75.32782672132038</longitude>
+				<latitude>6.433030754915598</latitude>
+				<altitude>0</altitude>
+				<heading>0.0003345859494067598</heading>
+				<tilt>0.6702118154506173</tilt>
+				<range>142.6456777721903</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-75.32807882276002,6.43327182288246,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Punto de encuentro 2 - Coliseo I.E.</name>
+			<LookAt>
+				<longitude>-75.32755830252508</longitude>
+				<latitude>6.43417096892246</latitude>
+				<altitude>0</altitude>
+				<heading>0.005192773512249121</heading>
+				<tilt>0</tilt>
+				<range>345.069849586039</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-75.32713983917675,6.434308012946899,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Punto de encuentro 3 - Atrio de la Iglesia segundo parque</name>
+			<LookAt>
+				<longitude>-75.3290680466723</longitude>
+				<latitude>6.435480368708451</latitude>
+				<altitude>0</altitude>
+				<heading>0.003534072722016265</heading>
+				<tilt>0</tilt>
+				<range>152.9743942808005</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-75.32914074262436,6.435664034616314,0</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+</Document>
+</kml>

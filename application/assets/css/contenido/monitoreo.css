@@ -1,0 +1,156 @@
+/************************************
+******* MOVILES PEQUEÑOS *************
+ ************************************/
+.contenedor_redes
+{
+    font-size: 			1em;
+    width:              100%;
+}
+
+.imagen_red
+{
+    width:              30%;
+    height: 			auto;
+    /*margin-top:         20%;*/
+    vertical-align:     middle;
+}
+
+.tituloRedes
+{
+    font-size:          x-large;
+    border-radius:      25px;
+    background:         rgb(16,37,49);
+    padding:            8px 35px 8px 20px;
+    color:              white;
+    font-weight:        bold;
+
+}
+
+.row-eq-height {
+    /*display:    -webkit-box;
+    display:    -webkit-flex;
+    display:    -ms-flexbox;
+    display:    flex;*/
+    display: inline-block;
+}
+
+.circuloConteoEstaciones
+{
+    height:             60px;
+    width:              60px;
+    background-color:   rgb(0,112,123);
+    border-radius:      50%;
+    display:            inline-block;
+    text-align:         center;
+    /*padding:            8px;*/
+    padding-top:        13px;
+    margin-left:        -35px;
+    border:             2px solid white;
+    font-size:          x-large;
+    color:              white;
+    font-weight:        bold;
+}
+.movilVertical{
+    display: block;
+    /*width: 60%;*/
+}
+
+.otros{
+    display: none;
+}
+/*************************************
+****** MOVILES GRANDES - VERTICAL ****
+*************************************/
+
+@media (min-width: 820px) and (orientation: portrait){
+
+    .imagen_red
+    {
+        width:              /*100%;*/ 30%;
+        /*margin-top:         20%;*/
+    }
+
+    .contenedor_redes
+    {
+        font-size: 			1em;
+    }
+
+    .movilVertical{
+    	display: block;
+        /*width: 60%;*/
+    }
+
+    .otros{
+    	display: none;
+    }
+
+   /* .tituloRedes
+    {
+        padding:            8px 55px 8px 45px;
+    }*/
+}
+
+/*********************************************
+** MOVILES GRANDES - HORIZONTAL Y TABLETS ****
+**********************************************/
+
+@media(min-width: 820px) and (orientation: landscape){
+
+    .imagen_red
+    {
+        width:              80%;
+        /*margin-top:         20%;*/
+    }
+
+    .contenedor_redes
+    {
+        font-size: 			large;
+    }
+
+    .tituloRedes
+    {
+        padding:            8px 55px 8px 45px;
+    }
+    .movilVertical{
+    	display: none;
+    }
+
+    .otros{
+    	display: block;
+    }
+}
+
+/*********************************************
+****** PANTALLA ESCRITORIO TAMAÑO NORMAL *****
+**********************************************/
+
+@media (min-width: 992px) {
+
+    .imagen_red
+    {
+        width:              60%;
+        /*margin-top:         0%;*/
+    }
+
+    .contenedor_redes
+    {
+        font-size: 			large;
+    }
+}
+
+/***************************************
+****** PANTALLA ESCRITORIO GRANDES *****
+****************************************/
+
+@media (min-width: 1200px) {
+    .imagen_red
+    {
+        width:              60%;
+        /*margin-top:         0%;*/
+    }
+
+    .contenedor_redes
+    {
+        font-size: 			large;
+    }
+}

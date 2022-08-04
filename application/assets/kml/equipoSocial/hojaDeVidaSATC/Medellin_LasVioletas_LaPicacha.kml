@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Folder>
+	<name>Lugares temporales</name>
+	<open>1</open>
+	<Document>
+		<name>puntos_SATC_Belen_Las_violetas.kmz</name>
+		<open>1</open>
+		<Style id="s_ylw-pushpin_hl">
+			<IconStyle>
+				<scale>1.3</scale>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+				</Icon>
+				<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+			</IconStyle>
+		</Style>
+		<Style id="s_ylw-pushpin">
+			<IconStyle>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+				</Icon>
+				<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+			</IconStyle>
+		</Style>
+		<StyleMap id="m_ylw-pushpin">
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#s_ylw-pushpin</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id="s_ylw-pushpin0">
+			<IconStyle>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+				</Icon>
+				<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+			</IconStyle>
+		</Style>
+		<Style id="s_ylw-pushpin_hl0">
+			<IconStyle>
+				<scale>1.3</scale>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+				</Icon>
+				<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+			</IconStyle>
+		</Style>
+		<StyleMap id="m_ylw-pushpin0">
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#s_ylw-pushpin0</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#s_ylw-pushpin_hl0</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Folder>
+			<name>SATC_las_violetas</name>
+			<open>1</open>
+			<Placemark>
+				<name>Punto de encuentro 4</name>
+				<description>Nuevo punto de encuentro actualizado con Bomberos Medellín el 05 de octubre de 2020</description>
+				<LookAt>
+					<gx:ViewerOptions>
+						<gx:option enabled="0" name="historicalimagery"></gx:option>
+						<gx:option enabled="0" name="sunlight"></gx:option>
+						<gx:option name="streetview"></gx:option>
+					</gx:ViewerOptions>
+					<longitude>-75.61260098510576</longitude>
+					<latitude>6.232945794207852</latitude>
+					<altitude>0</altitude>
+					<heading>-23.26807403499432</heading>
+					<tilt>66.30926877347748</tilt>
+					<range>6.222000175184011</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-75.61258045603898,6.232937699948558,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Parqueadero</name>
+				<LookAt>
+					<gx:ViewerOptions>
+						<gx:option enabled="0" name="historicalimagery"></gx:option>
+						<gx:option enabled="0" name="sunlight"></gx:option>
+						<gx:option name="streetview"></gx:option>
+					</gx:ViewerOptions>
+					<longitude>-75.61213872264987</longitude>
+					<latitude>6.234382939783358</latitude>
+					<altitude>0</altitude>
+					<heading>94.30394104912257</heading>
+					<tilt>84.1084460141052</tilt>
+					<range>24.3551262069253</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-75.61225792318335,6.234391857693885,1.365041782635605</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Sensor de nivel</name>
+				<LookAt>
+					<gx:ViewerOptions>
+						<gx:option enabled="0" name="historicalimagery"></gx:option>
+						<gx:option enabled="0" name="sunlight"></gx:option>
+						<gx:option name="streetview"></gx:option>
+					</gx:ViewerOptions>
+					<longitude>-75.61267402226683</longitude>
+					<latitude>6.234774682571948</latitude>
+					<altitude>0</altitude>
+					<heading>-11.61677501099732</heading>
+					<tilt>84.94485637371712</tilt>
+					<range>28.37147144716266</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-75.61266587824274,6.234735301183411,0.3959060453187191</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Alarma sonora</name>
+				<Camera>
+					<gx:ViewerOptions>
+						<gx:option enabled="0" name="historicalimagery"></gx:option>
+						<gx:option enabled="0" name="sunlight"></gx:option>
+						<gx:option name="streetview"></gx:option>
+					</gx:ViewerOptions>
+					<longitude>-75.61262259689316</longitude>
+					<latitude>6.234526009014357</latitude>
+					<altitude>2.500000000355332</altitude>
+					<heading>38.59119771228249</heading>
+					<tilt>92.62741854776486</tilt>
+					<roll>-1.491514510269966e-06</roll>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</Camera>
+				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-75.61258303392371,6.234604511928037,2.972286907561634</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Punto de encuentro 1 - Altos del Castillo Etapa I</name>
+				<LookAt>
+					<gx:ViewerOptions>
+						<gx:option enabled="0" name="historicalimagery"></gx:option>
+						<gx:option enabled="0" name="sunlight"></gx:option>
+						<gx:option name="streetview"></gx:option>
+					</gx:ViewerOptions>
+					<longitude>-75.61214525354481</longitude>
+					<latitude>6.235082792896369</latitude>
+					<altitude>0</altitude>
+					<heading>-8.940640058486149</heading>
+					<tilt>85.10502457126184</tilt>
+					<range>29.29739186033895</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-75.61211930628571,6.234918838192008,1.582333102648197</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Punto de encuentro 3</name>
+				<LookAt>
+					<gx:ViewerOptions>
+						<gx:option enabled="0" name="historicalimagery"></gx:option>
+						<gx:option enabled="0" name="sunlight"></gx:option>
+						<gx:option name="streetview"></gx:option>
+					</gx:ViewerOptions>
+					<longitude>-75.61279252910474</longitude>
+					<latitude>6.236622428668414</latitude>
+					<altitude>0</altitude>
+					<heading>11.02589227906186</heading>
+					<tilt>89.56026230455903</tilt>
+					<range>324.6649874156801</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-75.61334394280382,6.23384944325582,1.723157621046318</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Sede social Las Violetas</name>
+				<LookAt>
+					<gx:ViewerOptions>
+						<gx:option enabled="0" name="historicalimagery"></gx:option>
+						<gx:option enabled="0" name="sunlight"></gx:option>
+						<gx:option name="streetview"></gx:option>
+					</gx:ViewerOptions>
+					<longitude>-75.61471034238575</longitude>
+					<latitude>6.234811524842085</latitude>
+					<altitude>0</altitude>
+					<heading>26.78936376117987</heading>
+					<tilt>85.13580719314986</tilt>
+					<range>29.48233790161163</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-75.61474387361686,6.234678230812118,1.513589131650446</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Punto de encuentro 2</name>
+				<LookAt>
+					<longitude>-75.61145017075391</longitude>
+					<latitude>6.234704520049813</latitude>
+					<altitude>0</altitude>
+					<heading>1.474518031476543</heading>
+					<tilt>27.42985389212951</tilt>
+					<range>215.9465738339796</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-75.61114495511846,6.234571296338881,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Cancha Belen Las Violetas</name>
+				<Camera>
+					<longitude>-75.61299578516788</longitude>
+					<latitude>6.234749491571817</latitude>
+					<altitude>933.3411449333099</altitude>
+					<heading>0.8089047777913486</heading>
+					<tilt>2.827966735884275</tilt>
+					<roll>0.6653768240036938</roll>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</Camera>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-75.61452241474184,6.235189014971976,0</coordinates>
+				</Point>
+			</Placemark>
+		</Folder>
+	</Document>
+</Folder>
+</kml>

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>Hatoviejo Bello.kmz</name>
+	<StyleMap id="m_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Folder>
+		<name>Hatoviejo Bello</name>
+		<open>1</open>
+		<Placemark>
+			<name>Sector el Hueco, Inundación.</name>
+			<description>Zona de Inundación sector el Hueco, hatoviejo, Bello.</description>
+			<LookAt>
+				<longitude>-75.57084812927637</longitude>
+				<latitude>6.338402830419811</latitude>
+				<altitude>0</altitude>
+				<heading>-0.0002170709134225382</heading>
+				<tilt>40.22000502813414</tilt>
+				<range>690.7641050259789</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-75.57084812927637,6.338402830419811,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Punto de encuentro 2</name>
+			<description>Punto de encuentro limites con Unidada residencial.</description>
+			<LookAt>
+				<longitude>-75.57104860601727</longitude>
+				<latitude>6.337430040666133</latitude>
+				<altitude>0</altitude>
+				<heading>-0.0005827126885782679</heading>
+				<tilt>49.45657217483824</tilt>
+				<range>522.1957170911625</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-75.5710580992905,6.339157090887364,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Punto de encuentro 1</name>
+			<description>Punto de encuentro 1, via principal, parte alta sector el hueco</description>
+			<LookAt>
+				<gx:TimeSpan>
+					<begin>2019-10-01T16:39:25.6599492Z</begin>
+					<end>2019-10-01T16:39:25.8599535Z</end>
+				</gx:TimeSpan>
+				<gx:ViewerOptions>
+					<gx:option name="historicalimagery"></gx:option>
+					<gx:option enabled="0" name="sunlight"></gx:option>
+					<gx:option enabled="0" name="streetview"></gx:option>
+				</gx:ViewerOptions>
+				<longitude>-75.57055748503254</longitude>
+				<latitude>6.337634874949435</latitude>
+				<altitude>0</altitude>
+				<heading>-0.0005386848357888693</heading>
+				<tilt>51.88622445586124</tilt>
+				<range>558.8519436838101</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-75.57123956444711,6.337841109695028,0</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+</Document>
+</kml>

@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>SATC-La Raya.kmz</name>
+	<Style id="s_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="m_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin_hl">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Folder>
+		<name>SATC-La Raya</name>
+		<open>1</open>
+		<Document>
+			<name>20200601_monitoreo_SATC_inpire_La_Estrella_La_Raya Pix4D</name>
+			<Style>
+				<ListStyle id="hideChildren">
+					<listItemType>checkHideChildren</listItemType>
+					<bgColor>00ffffff</bgColor>
+					<maxSnippetLines>2</maxSnippetLines>
+				</ListStyle>
+			</Style>
+			<NetworkLink>
+				<name>14/4749/8470.kml</name>
+				<Region>
+					<LatLonAltBox>
+						<north>6.118707747190857</north>
+						<south>6.096859818887948</south>
+						<east>-75.62988281250001</east>
+						<west>-75.65185546875001</west>
+						<minAltitude>0</minAltitude>
+						<maxAltitude>0</maxAltitude>
+					</LatLonAltBox>
+					<Lod>
+						<minLodPixels>128</minLodPixels>
+						<maxLodPixels>-1</maxLodPixels>
+						<minFadeExtent>0</minFadeExtent>
+						<maxFadeExtent>0</maxFadeExtent>
+					</Lod>
+				</Region>
+				<Link>
+					<href>/Users/samantayepes/Downloads/20200601_monitoreo_SATC_inpire_La_Estrella_La_Raya_mosaic.kmz/14/4749/8470.kml</href>
+					<viewRefreshMode>onRegion</viewRefreshMode>
+				</Link>
+			</NetworkLink>
+		</Document>
+		<Placemark>
+			<name>Alarma</name>
+			<LookAt>
+				<longitude>-75.64086916176043</longitude>
+				<latitude>6.107778345790241</latitude>
+				<altitude>0</altitude>
+				<heading>-2.326436540587848e-08</heading>
+				<tilt>44.99999456275081</tilt>
+				<range>2841.206702287699</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-75.64150054740939,6.111749826610081,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Punto de encuentro la cancha</name>
+			<LookAt>
+				<longitude>-75.64086916176043</longitude>
+				<latitude>6.107778345790241</latitude>
+				<altitude>0</altitude>
+				<heading>-2.326436540587848e-08</heading>
+				<tilt>44.99999456275081</tilt>
+				<range>2841.206702287699</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-75.63969651571517,6.112015869614217,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Punto de encuentro 2 parqueaderos</name>
+			<LookAt>
+				<longitude>-75.63872431080348</longitude>
+				<latitude>6.111859245316754</latitude>
+				<altitude>0</altitude>
+				<heading>3.850596395505024e-06</heading>
+				<tilt>44.99998096222802</tilt>
+				<range>216.5377696417831</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-75.63929669419343,6.111909224344877,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Alarma sonora</name>
+			<Camera>
+				<gx:ViewerOptions>
+					<gx:option enabled="0" name="historicalimagery"></gx:option>
+					<gx:option enabled="0" name="sunlight"></gx:option>
+					<gx:option name="streetview"></gx:option>
+				</gx:ViewerOptions>
+				<longitude>-75.64071472676584</longitude>
+				<latitude>6.111998154668743</latitude>
+				<altitude>2.499999999877838</altitude>
+				<heading>-103.5008491937576</heading>
+				<tilt>89.28862753813274</tilt>
+				<roll>-0.0003867139729295085</roll>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</Camera>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-75.64156586257825,6.111864173292082,1802.667901844366</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Sensor de nivel</name>
+			<LookAt>
+				<gx:ViewerOptions>
+					<gx:option enabled="0" name="historicalimagery"></gx:option>
+					<gx:option enabled="0" name="sunlight"></gx:option>
+					<gx:option name="streetview"></gx:option>
+				</gx:ViewerOptions>
+				<longitude>-75.62623301234862</longitude>
+				<latitude>6.067618966255498</latitude>
+				<altitude>0</altitude>
+				<heading>161.6550982197675</heading>
+				<tilt>70.86939691637274</tilt>
+				<range>5518.226701885405</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-75.64090600990575,6.111875109083639,1777.728835279676</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+</Document>
+</kml>

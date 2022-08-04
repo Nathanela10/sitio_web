@@ -1,0 +1,55 @@
+/************************************
+******* MOVILES PEQUEÑOS *************
+ ************************************/
+.iconoTutorial{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+/*************************************
+****** MOVILES GRANDES - VERTICAL ****
+*************************************/
+
+@media (min-width: 820px) and (orientation: portrait){
+    .iconoTutorial{
+        width: 90%;
+    }
+
+}
+
+/*********************************************
+** MOVILES GRANDES - HORIZONTAL Y TABLETS ****
+**********************************************/
+
+@media(min-width: 820px) and (orientation: landscape){
+    .iconoTutorial{
+        width: 40%;
+    }
+
+}
+/*********************************************
+****** PANTALLA ESCRITORIO TAMAÑO NORMAL *****
+**********************************************/
+
+@media (min-width: 992px) {
+
+    .iconoTutorial{
+        width: 30%;
+    }
+
+}
+
+/***************************************
+****** PANTALLA ESCRITORIO GRANDES *****
+****************************************/
+
+@media (min-width: 1200px) {
+
+    .iconoTutorial{
+        width: 25%;
+    }
+
+
+}

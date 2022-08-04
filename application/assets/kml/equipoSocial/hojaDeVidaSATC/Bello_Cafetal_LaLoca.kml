@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>puntos_SATC_Bello_Cafetal.kmz</name>
+	<StyleMap id="m_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin_hl">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Style id="s_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Folder>
+		<name>Lugares temporales</name>
+		<open>1</open>
+		<Document>
+			<name>27032018_SATC_Q_la_loca_arriba Pix4D</name>
+			<Style>
+				<ListStyle id="hideChildren">
+					<listItemType>checkHideChildren</listItemType>
+					<bgColor>00ffffff</bgColor>
+					<maxSnippetLines>2</maxSnippetLines>
+				</ListStyle>
+			</Style>
+			<NetworkLink>
+				<name>14/4752/8479.kml</name>
+				<Region>
+					<LatLonAltBox>
+						<north>6.315298538330033</north>
+						<south>6.293458760393998</south>
+						<east>-75.56396484374999</east>
+						<west>-75.58593749999999</west>
+						<minAltitude>0</minAltitude>
+						<maxAltitude>0</maxAltitude>
+					</LatLonAltBox>
+					<Lod>
+						<minLodPixels>128</minLodPixels>
+						<maxLodPixels>-1</maxLodPixels>
+						<minFadeExtent>0</minFadeExtent>
+						<maxFadeExtent>0</maxFadeExtent>
+					</Lod>
+				</Region>
+				<Link>
+					<href>27032018_SATC_Q_la_loca_arriba.kmz/14/4752/8479.kml</href>
+					<viewRefreshMode>onRegion</viewRefreshMode>
+				</Link>
+			</NetworkLink>
+			<NetworkLink>
+				<name>14/4752/8480.kml</name>
+				<Region>
+					<LatLonAltBox>
+						<north>6.337137394988546</north>
+						<south>6.315298538330033</south>
+						<east>-75.56396484374999</east>
+						<west>-75.58593749999999</west>
+						<minAltitude>0</minAltitude>
+						<maxAltitude>0</maxAltitude>
+					</LatLonAltBox>
+					<Lod>
+						<minLodPixels>128</minLodPixels>
+						<maxLodPixels>-1</maxLodPixels>
+						<minFadeExtent>0</minFadeExtent>
+						<maxFadeExtent>0</maxFadeExtent>
+					</Lod>
+				</Region>
+				<Link>
+					<href>27032018_SATC_Q_la_loca_arriba.kmz/14/4752/8480.kml</href>
+					<viewRefreshMode>onRegion</viewRefreshMode>
+				</Link>
+			</NetworkLink>
+		</Document>
+		<Folder>
+			<name>puntos_SATC_Bello_Cafetal</name>
+			<open>1</open>
+			<Placemark>
+				<name>Sensor de nivel </name>
+				<LookAt>
+					<longitude>-75.57999351932361</longitude>
+					<latitude>6.31578511296985</latitude>
+					<altitude>0</altitude>
+					<heading>-0.004519218422284599</heading>
+					<tilt>27.38108681929868</tilt>
+					<range>79.41906596597195</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-75.57991955096821,6.315796335033156,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Alarma sonora</name>
+				<LookAt>
+					<longitude>-75.57981449310205</longitude>
+					<latitude>6.315752496023971</latitude>
+					<altitude>0</altitude>
+					<heading>-0.004499524264694374</heading>
+					<tilt>27.38108681929869</tilt>
+					<range>79.41906597108822</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-75.57964320471545,6.315736526433867,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Sede social  </name>
+				<LookAt>
+					<longitude>-75.57809508608523</longitude>
+					<latitude>6.314934232572596</latitude>
+					<altitude>0</altitude>
+					<heading>-0.004310402402745914</heading>
+					<tilt>27.3822102839478</tilt>
+					<range>351.3001153129945</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-75.57750944698067,6.314434401365259,0</coordinates>
+				</Point>
+			</Placemark>
+		</Folder>
+	</Folder>
+</Document>
+</kml>

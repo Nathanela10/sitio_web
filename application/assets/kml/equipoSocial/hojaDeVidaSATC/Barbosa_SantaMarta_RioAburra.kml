@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>Barbosa Hatillo sector Santa Marta.kmz</name>
+	<StyleMap id="m_ylw-pushpin00">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin1</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl0</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="m_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl2</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin_hl2">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Style id="s_ylw-pushpin00">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl1">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="m_ylw-pushpin0">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin00</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl1</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin_hl">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl0">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="m_ylw-pushpin1">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin0">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Style id="s_ylw-pushpin1">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Style id="s_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Folder>
+		<name>Barbosa Hatillo sector Santa Marta</name>
+		<open>1</open>
+		<Placemark>
+			<name>Sede Social el Hatillo</name>
+			<LookAt>
+				<longitude>-75.39396811305913</longitude>
+				<latitude>6.412652156572197</latitude>
+				<altitude>0</altitude>
+				<heading>-0.0001831645750741899</heading>
+				<tilt>2.259690000139558</tilt>
+				<range>133.6056109272186</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin00</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-75.39396811305915,6.412652156572198,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>I.E. Hatillo</name>
+			<description>Ha presentado inundaciones</description>
+			<LookAt>
+				<longitude>-75.39196679471314</longitude>
+				<latitude>6.413290239519005</latitude>
+				<altitude>0</altitude>
+				<heading>4.092388298753642e-05</heading>
+				<tilt>45.00145060108539</tilt>
+				<range>235.6316818117194</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin00</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-75.39196679471314,6.413290239519012,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Antigua Estación Ferrocarril</name>
+			<LookAt>
+				<longitude>-75.39275214888768</longitude>
+				<latitude>6.411775109606547</latitude>
+				<altitude>0</altitude>
+				<heading>-0.0001144426912036775</heading>
+				<tilt>39.9651529120453</tilt>
+				<range>281.9392314227139</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin00</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-75.39186949365853,6.412513891629419,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Punto de encuentro 3 - CAI</name>
+			<LookAt>
+				<longitude>-75.39315093182655</longitude>
+				<latitude>6.411922281488294</latitude>
+				<altitude>0</altitude>
+				<heading>-0.0001589438539217931</heading>
+				<tilt>39.9664775547892</tilt>
+				<range>511.6369842047021</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin00</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-75.39417484783333,6.411135865416078,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Punto de encuentro 2 - Potrero</name>
+			<LookAt>
+				<longitude>-75.39427929495477</longitude>
+				<latitude>6.412918821019618</latitude>
+				<altitude>0</altitude>
+				<heading>-0.0001232682222587125</heading>
+				<tilt>30.94737963457489</tilt>
+				<range>142.7741649814856</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin0</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-75.39423907726554,6.412934605010061,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Punto de encuentro 1 - Zona verde antigua Estación Ferrocarril</name>
+			<LookAt>
+				<longitude>-75.39233431805424</longitude>
+				<latitude>6.41240695343768</latitude>
+				<altitude>0</altitude>
+				<heading>-1.026587682299022</heading>
+				<tilt>0</tilt>
+				<range>112.9991517623826</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin0</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-75.3921242640682,6.41241627146558,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Punto de encuentro alterno - Atrio Iglesia Santa Marta</name>
+			<LookAt>
+				<longitude>-75.39290889479842</longitude>
+				<latitude>6.412597430462714</latitude>
+				<altitude>0</altitude>
+				<heading>-1.026619840479744</heading>
+				<tilt>0</tilt>
+				<range>82.86267580384512</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin0</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-75.39290101025,6.412658178399757,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Estación de nivel Hatillo</name>
+			<LookAt>
+				<longitude>-75.3937304431785</longitude>
+				<latitude>6.412877596382902</latitude>
+				<altitude>0</altitude>
+				<heading>-7.644366830782037e-05</heading>
+				<tilt>44.99999999999987</tilt>
+				<range>388.9086995444399</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-75.39367678422201,6.412321723954752,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Alarma sonora</name>
+			<LookAt>
+				<longitude>-75.39288657529561</longitude>
+				<latitude>6.412695296091927</latitude>
+				<altitude>0</altitude>
+				<heading>5.905696873509434e-05</heading>
+				<tilt>44.99939383704504</tilt>
+				<range>108.6058710480367</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin1</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-75.39295900361863,6.412674260110582,0</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+</Document>
+</kml>

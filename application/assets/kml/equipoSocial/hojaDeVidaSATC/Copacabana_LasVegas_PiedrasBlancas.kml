@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>Piedras Blancas.kmz</name>
+	<StyleMap id="m_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Folder>
+		<name>Piedras Blancas</name>
+		<open>1</open>
+		<Placemark>
+			<name>Sede Social Las Vegas</name>
+			<LookAt>
+				<longitude>-75.51098819089538</longitude>
+				<latitude>6.34493500703199</latitude>
+				<altitude>0</altitude>
+				<heading>-16.45826325895328</heading>
+				<tilt>0</tilt>
+				<range>102.9145073143658</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-75.5111288900307,6.345102111227607,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Punto de encuentro 1 - Cementerio Barrio las Vegas</name>
+			<LookAt>
+				<longitude>-75.51170398124377</longitude>
+				<latitude>6.345161447698509</latitude>
+				<altitude>0</altitude>
+				<heading>-16.45834236530942</heading>
+				<tilt>0</tilt>
+				<range>102.9145073139706</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-75.51168355579071,6.345270705097641,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Sensor de nivel</name>
+			<LookAt>
+				<longitude>-75.51045305797329</longitude>
+				<latitude>6.343328441453589</latitude>
+				<altitude>0</altitude>
+				<heading>-16.45820413051418</heading>
+				<tilt>0</tilt>
+				<range>102.9145073142414</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-75.51048371991786,6.343365858447861,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Punto de encuentro 2 - Barrio Piedras Blancas</name>
+			<LookAt>
+				<longitude>-75.51004210768818</longitude>
+				<latitude>6.343649229873513</latitude>
+				<altitude>0</altitude>
+				<heading>-16.45815872362074</heading>
+				<tilt>0</tilt>
+				<range>102.9145073138078</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-75.50994612368061,6.343943614664083,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Alarma sonora</name>
+			<LookAt>
+				<longitude>-75.50979967265133</longitude>
+				<latitude>6.342663252567911</latitude>
+				<altitude>0</altitude>
+				<heading>-16.45813193964891</heading>
+				<tilt>0</tilt>
+				<range>135.4831256353245</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-75.51006854766592,6.342700291892283,0</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+</Document>
+</kml>

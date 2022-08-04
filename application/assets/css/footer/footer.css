@@ -1,0 +1,118 @@
+/************************************
+******* MOVILES PEQUEÑOS *************
+ ************************************/
+.barraFooter{
+    margin-right: 0;
+    margin-left: 65px;
+    height: fit-content;
+}
+
+.divContactanos{
+    height: 45px;
+    /*background-color: red;*/
+    margin: 0
+}
+
+.mensajeContacto{
+    font-size: medium;
+    padding-left: 0px;
+    color: rgb(148,205,214);
+    font-weight: bold;
+}
+
+.divDatosUbicacion{
+    margin: 0;
+    color: white;
+    font-size:medium;
+}
+
+/*************************************
+****** MOVILES GRANDES - VERTICAL ****
+*************************************/
+
+@media (min-width: 820px) and (orientation: portrait){
+    .barraFooter{
+        margin-left: 145px;
+    }
+
+    .divContactanos{
+        height: 85px;
+    }
+
+    .mensajeContacto{
+        font-size: x-large;
+    }
+
+    .divDatosUbicacion{
+        font-size:x-large;
+    }
+
+}
+
+/*********************************************
+** MOVILES GRANDES - HORIZONTAL Y TABLETS ****
+**********************************************/
+
+@media(min-width: 820px) and (orientation: landscape){
+
+    .barraFooter{
+        margin-left: 65px;
+    }
+
+    .divContactanos{
+        height: 54px;
+    }
+
+    .mensajeContacto{
+        font-size: large;
+    }
+
+    .divDatosUbicacion{
+        font-size:large;
+    }
+}
+
+/*********************************************
+****** PANTALLA ESCRITORIO TAMAÑO NORMAL *****
+**********************************************/
+
+@media (min-width: 992px) {
+
+    .barraFooter{
+        margin-left: 60px;
+    }
+
+    .divContactanos{
+        height: 54px;
+    }
+
+    .mensajeContacto{
+        font-size: large;
+    }
+
+    .divDatosUbicacion{
+        font-size:large;
+    }
+}
+
+/***************************************
+****** PANTALLA ESCRITORIO GRANDES *****
+****************************************/
+
+@media (min-width: 1200px) {
+    .barraFooter{
+        margin-left: 60px;
+    }
+
+    .divContactanos{
+        height: 48px;
+    }
+
+    .mensajeContacto{
+        font-size: large;
+    }
+
+    .divDatosUbicacion{
+        font-size:large;
+    }
+}

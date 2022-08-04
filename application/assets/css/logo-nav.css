@@ -1,0 +1,383 @@
+/* mobile first */
+.tituloSiata{
+    display: none;
+}
+
+.barraHeader{
+    height: 80px;
+    /*width: 100%;*/
+}
+
+.divLogos{
+    background-color:     #0a6f7c;
+    height:               50%;
+    padding-left:         40px;
+}
+
+.divLogoSiata{
+    background-color: #0a6f7c;
+    height: 50%;
+    z-index: 1;
+}
+
+.imgLogoSiata{
+    height: 200%;
+}
+
+.imgLogoEntidades {
+    height: 100%;
+}
+
+.divTitulo{
+    height:             50%;
+    padding-left:       105px;
+    padding-top:        11px;
+    background-color:   #0a6f7c;
+}
+
+ul.social-network
+{
+    list-style:     none;
+    display:      inline;
+    margin-left:    0 !important;
+    padding:      0;
+}
+
+.social-circle li a
+{
+    width:      30px;
+    height:     30px;
+    font-size:  large;
+    display:  inline-block !important;
+    position: relative;
+    margin:   0 auto 0 auto;
+    -moz-border-radius:   50%;
+    -webkit-border-radius:  50%;
+    border-radius:      50%;
+    text-align:     center;
+    background:     rgb(148,205,214);
+    color:          white;
+}
+
+.social-circle li i
+{
+    line-height:  32px;
+    text-align:     center;
+    margin:     0;
+}
+
+ul.social-network li
+{
+    display: inline;
+}
+
+.divRedesSociales {
+    padding-top: 8px;
+    padding-left: 0px;
+    height: 100%;
+}
+
+.divContenedorRedes{
+    background-color: white;
+    height: 50%;
+}
+
+.divTituloSiguenos{
+    padding-top: 0px;
+    height: 100%;
+}
+
+.spanTituloSiguenos{
+    color: rgb(148,205,214);
+    font-weight: bold;
+    float: right;
+    font-size: large;
+    padding-top: 12px;
+}
+
+.contenido {
+    height: 25%;
+    width: 99%;
+    margin: 0;
+}
+
+.fill {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+/* moviles pantalla grande */
+@media (min-width: 768px){
+    .tituloSiata{
+        display:    none;
+    }
+
+    .barraHeader {
+        height:     150px;
+    }
+
+    .divLogos{
+        padding-left: 20px;
+    }
+
+    .social-circle li a
+    {
+        width:      53px;
+        height:     53px;
+        font-size:  xx-large;
+    }
+
+    .social-circle li i
+    {
+        line-height:  55px;
+    }
+
+    .divRedesSociales {
+        padding-top: 13px;
+    }
+
+    .spanTituloSiguenos{
+        padding-top: 22px;
+        font-size: xx-large;
+    }
+
+    .contenido {
+        height: 30%;
+    }
+}
+
+
+
+
+
+/* moviles pantalla grande */
+@media (min-width: 768px) and (orientation: portrait){
+    .tituloSiata{
+        display:    none;
+    }
+
+    .barraHeader {
+        height:     150px;
+    }
+
+    .divLogos{
+        padding-left: 20px;
+    }
+
+    .social-circle li a
+    {
+        width:      53px;
+        height:     53px;
+        font-size:  xx-large;
+    }
+
+    .social-circle li i
+    {
+        line-height:  55px;
+    }
+
+    .divRedesSociales {
+        padding-top: 13px;
+    }
+
+    .spanTituloSiguenos{
+        padding-top: 22px;
+        font-size: xx-large;
+    }
+
+    .contenido {
+        height: 30%;
+    }
+}
+
+/* tabletas y moviles horizontales*/
+@media (min-width: 768px) and (orientation: landscape){
+    .tituloSiata{
+        display:    none;
+    }
+
+    .barraHeader {
+        height:     90px;
+    }
+
+    .divLogos{
+        padding-left: 150px;
+    }
+
+    .social-circle li a
+    {
+        width:      35px;
+        height:     35px;
+        font-size:  x-large;
+    }
+
+    .social-circle li i
+    {
+        line-height:  37px;
+    }
+
+    .divRedesSociales {
+        padding-top: 7px;
+    }
+
+    .spanTituloSiguenos{
+        padding-top: 10px;
+        font-size: x-large;
+    }
+
+    .contenido {
+        height: 50%;
+    }
+}
+
+/* escritorio normales */
+@media (min-width: 992px) {
+    .tituloSiata{
+        display: none;
+    }
+
+    .divLogos{
+        padding-left: 20px;
+    }
+
+    .barraHeader {
+        height: 98px;
+    }
+
+
+    .social-circle li a
+    {
+        width:      35px;
+        height:     35px;
+        font-size:  large;
+    }
+
+    .social-circle li i
+    {
+        line-height:  37px;
+    }
+
+    .divRedesSociales {
+        padding-top: 8px;
+    }
+
+    .contenido {
+        height: 50%;
+    }
+}
+
+/* pantallas grandes */
+@media (min-width: 1200px) {
+    .barraHeader{
+        height: 98px;
+    }
+
+    .imgLogoEntidades {
+        height: 100%;
+    }
+
+    .imgLogoSiata{
+        height: 200%;
+    }
+
+    .divLogoSiata{
+        background-color: #0a6f7c;
+        height: 50%;
+        z-index: 1;
+    }
+
+    .divTitulo{
+        height:             50%;
+        padding-left:       105px;
+        padding-top:        11px;
+        background-color:   #0a6f7c;
+    }
+
+    .tituloSiata{
+
+        font-size:          21px;
+        color:              white;
+        font-weight:        bold;
+        display:            block;
+    }
+
+    .divLogos{
+        background-color:     #0a6f7c;
+        height:               50%;
+        padding-left:         initial;
+    }
+
+    .social-circle li a
+    {
+        width:      32px;
+        height:     32px;
+        font-size:  large;
+        display:  inline-block !important;
+        position: relative;
+        margin:   0 auto 0 auto;
+        -moz-border-radius:   50%;
+        -webkit-border-radius:  50%;
+        border-radius:      50%;
+        text-align:     center;
+        background:     rgb(148,205,214);
+        color:          white;
+    }
+
+    .social-circle li i
+    {
+        margin:     0;
+        line-height:      34px;
+        text-align:     center;
+    }
+
+    ul.social-network
+    {
+        list-style:     none;
+        display:      inline;
+        margin-left:    0 !important;
+        padding:      0;
+    }
+
+    ul.social-network li
+    {
+        display: inline;
+    }
+
+    .divRedesSociales{
+        height: 100%;
+        padding-left: 0px;
+        padding-top: 9px;
+    }
+
+    .divContenedorRedes{
+        background-color: white;
+        height: 50%;
+    }
+
+    .divTituloSiguenos{
+        height: 100%;
+    }
+
+    .spanTituloSiguenos{
+        color: rgb(148,205,214);
+        font-weight: bold;
+        float: right;
+        font-size: large;
+        padding-top: 15px;
+    }
+
+    .contenido {
+        height: 30%;
+    }
+
+    .item,
+    .active,
+    .carousel-inner {
+        height: 100%;
+    }
+}

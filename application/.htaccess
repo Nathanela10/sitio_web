@@ -1,0 +1,22 @@
+#<IfModule authz_core_module>
+#    Require all denied
+#</IfModule>
+#<IfModule !authz_core_module>
+#    Deny from all
+#</IfModule>
+
+#Allow From All
+RewriteEngine on
+RewriteCond %{SERVER_PORT} =80
+RewriteRule ^(.*) https://%{SERVER_NAME}%{REQUEST_URI}
+
+<IfModule mod_headers.c>
+#       Header always set Access-Control-Allow-Origin "https://siata.gov.co"
+        Header set Access-Control-Allow-Origin "*"
+        Header always set Access-Control-Allow-Origin "*"
+        Header always set Access-Control-Allow-Methods "POST, GET, OPTIONS, PATCH, DELETE"
+        Header always set Access-Control-Allow-Headers: Authorization
+##      Header always set Access-Control-Allow-Headers "Origin, X-Requested-With, Content-Type, Accept"
+</IfModule>
+
+
