@@ -21,7 +21,7 @@ if ( ! defined("BASEPATH")) exit("No direct script access allowed");
                 <div class="col-xs-12 col-sm-6 col-md-5 col-lg-5">
                     <div class="card card-default">
                     <div class="card-img">
-                        <a href="https://localhost/sitio_web/index.php/territorioAlAireEnCasa" class="thumbnail">
+                        <a href="https://siata.gov.co/sitio_web/index.php/territorioAlAireEnCasa" class="thumbnail">
                             <img src="/sitio_web/application/assets/img/contenido/estrategiasEducacion/territorioAlAire/territorio_al_aire_en_casa.png" >
                         </a>
                     </div>
@@ -35,7 +35,7 @@ if ( ! defined("BASEPATH")) exit("No direct script access allowed");
                 <div class="col-xs-12 col-sm-6 col-md-5 col-lg-5">
                     <div class="card card-default">
                     <div class="card-img">
-                        <a href="https://localhost/sitio_web/index.php/territorioAlAire2022" class="thumbnail">
+                        <a href="https://siata.gov.co/sitio_web/index.php/territorioAlAire2022" class="thumbnail">
                             <img src="/sitio_web/application/assets/img/contenido/estrategiasEducacion/territorioAlAire/territorio_al_aire_2022.png" >
                         </a>
                     </div>
