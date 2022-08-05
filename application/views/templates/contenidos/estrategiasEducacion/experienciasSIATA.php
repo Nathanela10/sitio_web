@@ -97,7 +97,7 @@ if (!defined('BASEPATH')) exit('No direct script access allowed');
               <div class="card card-default">
                 <div class="card-img">
                   <a href="#" id="cajaDelCicloHidrologico_2" class="open_fancybox">
-                    <img src="/sitio_web/application/assets/img/contenido/estrategiasEducacion/experienciasSIATA/cajaDelCicloHidrologico_2/cajaDelCicloHidrologico_2-01.png" class="img-responsive">
+                    <img src="/sitio_web/application/assets/img/contenido/estrategiasEducacion/cajaDelCicloHidrologico_2/cajaDelCicloHidrologico_2-01.png" class="img-responsive">
                   </a>
                 </div>
                 <div class="card-body">

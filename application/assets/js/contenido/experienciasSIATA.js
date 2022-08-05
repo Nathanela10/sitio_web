@@ -1,4 +1,4 @@
-let urlBaseRecursos = "/sitio_web/application/assets/img/contenido/estrategiasEducacion/experienciasSIATA/";
+let urlBaseRecursos = "/sitio_web/application/assets/img/contenido/estrategiasEducacion/";
 
 
 let imagesExperimento = {"cajaDelCicloHidrologico_2": [
