@@ -191,7 +191,7 @@ if (!defined('BASEPATH')) exit('No direct script access allowed');
                 <div class="post featured row">
                     <div class="image col-lg-6 col-md-12 col-sm-12 col-xs-12">
                         <a data-fancy="videoGaleria" class="thumbnail" href="https://mailchi.mp/eee2add963f9/cmo-van-nuestras-nubes-8950362" target="_blank">
-                            <img style="height: 100%; width: auto;" src="../application/assets/img/contenido/estrategiasEducacion/redEducadoresCientificos/boletin/boletin_Mesadetrabajo1_8.png" class="img-responsive" alt="Cuento ¿Qué pasa al interior fr una nube?.">
+                            <img style="height: 100%; width: auto;" src="../application/assets/img/contenido/estrategiasEducacion/redEducadoresCientificos/boletin/boletin_Mesadetrabajo1_8.png" class="img-responsive" alt="Cuento ¿Qué pasa al interior de una nube?.">
                         </a>
                     </div>  
                     <div class="content col-lg-6 col-md-12 col-sm-12 col-xs-12">
