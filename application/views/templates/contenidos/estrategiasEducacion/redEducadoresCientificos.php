@@ -7,6 +7,8 @@ if (!defined('BASEPATH')) exit('No direct script access allowed');
 <html>
 
 <head>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+    <link href="/sitio_web/application/assets/css/contenido/ams.css?v=0.0.9" rel="stylesheet">
 </head>
 <?php include_once("analyticstracking.php") ?>
 <div class="row seccion">
@@ -43,11 +45,11 @@ if (!defined('BASEPATH')) exit('No direct script access allowed');
                 <div class="post featured row">
                     <div class="image col-lg-6 col-md-12 col-sm-12 col-xs-12">
                         <a data-fancy="videoGaleria" class="thumbnail" href="https://mailchi.mp/siata/cmo-van-nuestras-nubes-4800913" target="_blank">
-                            <img style="height: 40%; width: auto;" src="../application/assets/img/contenido/estrategiasEducacion/redEducadoresCientificos/boletin/boletin_MesadeTrabajo1_1.png" class="img-responsive" alt="Primera convocatoria de semilleros de ciudadanos científicos 2021.">
+                            <img style="height: 100%; width: auto;" src="../application/assets/img/contenido/estrategiasEducacion/redEducadoresCientificos/boletin/boletin_MesadeTrabajo1_1.png" class="img-responsive" alt="Primera convocatoria de semilleros de ciudadanos científicos 2021.">
                         </a>
                     </div>  
                     <div class="content col-lg-6 col-md-12 col-sm-12 col-xs-12">
-                        <br><br><br><br>
+                        <br><br>
                         <h4>
                             Primera convocatoria de semilleros de ciudadanos científicos 2021.
                         </h4>
@@ -63,7 +65,7 @@ if (!defined('BASEPATH')) exit('No direct script access allowed');
                 <div class="post featured row">
                     <div class="image col-lg-6 col-md-12 col-sm-12 col-xs-12">
                         <a data-fancy="videoGaleria" class="thumbnail" href="https://mailchi.mp/siata/cmo-van-nuestras-nubes-8586333" target="_blank">
-                            <img style="height: 40%; width: auto;" src="../application/assets/img/contenido/estrategiasEducacion/redEducadoresCientificos/boletin/boletin_MesadeTrabajo1_2.png" class="img-responsive" alt="Experiencias SIATA (caja de procesos hidrológicos y mesa oscilatoria). Juegos SIATA (Jenga de riesgos).">
+                            <img style="height: 100%; width: auto;" src="../application/assets/img/contenido/estrategiasEducacion/redEducadoresCientificos/boletin/boletin_MesadeTrabajo1_2.png" class="img-responsive" alt="Experiencias SIATA (caja de procesos hidrológicos y mesa oscilatoria). Juegos SIATA (Jenga de riesgos).">
                         </a>
                     </div>  
                     <div class="content col-lg-6 col-md-12 col-sm-12 col-xs-12">
@@ -89,11 +91,11 @@ if (!defined('BASEPATH')) exit('No direct script access allowed');
                 <div class="post featured row">
                     <div class="image col-lg-6 col-md-12 col-sm-12 col-xs-12">
                         <a data-fancy="videoGaleria" class="thumbnail" href="https://mailchi.mp/siata/cmo-van-nuestras-nubes-8682750" target="_blank">
-                            <img style="height: 40%; width: auto;" src="../application/assets/img/contenido/estrategiasEducacion/redEducadoresCientificos/boletin/boletin_MesadeTrabajo1_3.png" class="img-responsive" alt="Ejecución de semilleros específicos, con los profesores participantes de la primera convocatoria de 2021.">
+                            <img style="height: 100%; width: auto;" src="../application/assets/img/contenido/estrategiasEducacion/redEducadoresCientificos/boletin/boletin_MesadeTrabajo1_3.png" class="img-responsive" alt="Ejecución de semilleros específicos, con los profesores participantes de la primera convocatoria de 2021.">
                         </a>
                     </div>  
                     <div class="content col-lg-6 col-md-12 col-sm-12 col-xs-12">
-                        <br><br><br><br>
+                        <br><br>
                         <h4>
                             Ejecución de semilleros específicos, con los profesores participantes de la primera convocatoria de 2021.
                         </h4>
@@ -109,11 +111,11 @@ if (!defined('BASEPATH')) exit('No direct script access allowed');
                 <div class="post featured row">
                     <div class="image col-lg-6 col-md-12 col-sm-12 col-xs-12">
                         <a data-fancy="videoGaleria" class="thumbnail" href="https://mailchi.mp/siata/cmo-van-nuestras-nubes-8797426" target="_blank">
-                            <img style="height: 40%; width: auto;" src="../application/assets/img/contenido/estrategiasEducacion/redEducadoresCientificos/boletin/boletin_MesadeTrabajo1_4.png" class="img-responsive" alt="Material educativo, cuentos sobre descargas eléctricas.">
+                            <img style="height: 100%; width: auto;" src="../application/assets/img/contenido/estrategiasEducacion/redEducadoresCientificos/boletin/boletin_MesadeTrabajo1_4.png" class="img-responsive" alt="Material educativo, cuentos sobre descargas eléctricas.">
                         </a>
                     </div>  
                     <div class="content col-lg-6 col-md-12 col-sm-12 col-xs-12">
-                        <br><br><br><br><br>
+                        <br><br><br>
                         <h4>
                             Material educativo, cuentos sobre descargas eléctricas.
                         </h4>
@@ -129,11 +131,11 @@ if (!defined('BASEPATH')) exit('No direct script access allowed');
                 <div class="post featured row">
                     <div class="image col-lg-6 col-md-12 col-sm-12 col-xs-12">
                         <a data-fancy="videoGaleria" class="thumbnail" href="https://mailchi.mp/siata/cmo-van-nuestras-nubes-8864026" target="_blank">
-                            <img style="height: 40%; width: auto;" src="../application/assets/img/contenido/estrategiasEducacion/redEducadoresCientificos/boletin/boletin_MesadeTrabajo1_5.png" class="img-responsive" alt="Piloto de SCC desde la presencialidad, I.E Ntra. Sra del Carmen y Soleira.">
+                            <img style="height: 100%; width: auto;" src="../application/assets/img/contenido/estrategiasEducacion/redEducadoresCientificos/boletin/boletin_MesadeTrabajo1_5.png" class="img-responsive" alt="Piloto de SCC desde la presencialidad, I.E Ntra. Sra del Carmen y Soleira.">
                         </a>
                     </div>  
                     <div class="content col-lg-6 col-md-12 col-sm-12 col-xs-12">
-                        <br><br><br><br><br>
+                        <br><br><br>
                         <h4>
                             Piloto de SCC desde la presencialidad, I.E Ntra. Sra del Carmen y Soleira.
                         </h4>
@@ -149,11 +151,11 @@ if (!defined('BASEPATH')) exit('No direct script access allowed');
                 <div class="post featured row">
                     <div class="image col-lg-6 col-md-12 col-sm-12 col-xs-12">
                         <a data-fancy="videoGaleria" class="thumbnail" href="https://mailchi.mp/0a2d41f9f971/cmo-van-nuestras-nubes-8905733" target="_blank">
-                            <img style="height: 40%; width: auto;" src="../application/assets/img/contenido/estrategiasEducacion/redEducadoresCientificos/boletin/boletin_MesadeTrabajo1_6.png" class="img-responsive" alt="Red de Educadores Científicos desde la presencialidad en 2021.">
+                            <img style="height: 100%; width: auto;" src="../application/assets/img/contenido/estrategiasEducacion/redEducadoresCientificos/boletin/boletin_MesadeTrabajo1_6.png" class="img-responsive" alt="Red de Educadores Científicos desde la presencialidad en 2021.">
                         </a>
                     </div>  
                     <div class="content col-lg-6 col-md-12 col-sm-12 col-xs-12">
-                        <br><br><br><br><br>
+                        <br><br>
                         <h4>
                             Red de Educadores Científicos desde la presencialidad en 2021.
                         </h4>
@@ -165,15 +167,15 @@ if (!defined('BASEPATH')) exit('No direct script access allowed');
                 </div>
             </div>
             <br>
-            <div clas="blog-posts">
+            <div class="blog-posts">
                 <div class="post featured row">
                     <div class="image col-lg-6 col-md-12 col-sm-12 col-xs-12">
                         <a data-fancy="videoGaleria" class="thumbnail" href="https://mailchi.mp/4140b5499f32/cmo-van-nuestras-nubes-8937121" target="_blank">
-                            <img style="height: 40%; width: auto;" src="../application/assets/img/contenido/estrategiasEducacion/redEducadoresCientificos/boletin/boletin_MesadeTrabajo1_7.png" class="img-responsive" alt="Red de educadores científicos, propuesta y procesos del 2021.">
+                            <img style="height: 100%; width: auto;" src="../application/assets/img/contenido/estrategiasEducacion/redEducadoresCientificos/boletin/boletin_MesadeTrabajo1_7.png" class="img-responsive" alt="Red de educadores científicos, propuesta y procesos del 2021.">
                         </a>
                     </div>  
                     <div class="content col-lg-6 col-md-12 col-sm-12 col-xs-12">
-                        <br><br><br><br><br>
+                        <br><br>
                         <h4>
                             Red de educadores científicos, propuesta y procesos del 2021.
                         </h4>
@@ -189,11 +191,11 @@ if (!defined('BASEPATH')) exit('No direct script access allowed');
                 <div class="post featured row">
                     <div class="image col-lg-6 col-md-12 col-sm-12 col-xs-12">
                         <a data-fancy="videoGaleria" class="thumbnail" href="https://mailchi.mp/eee2add963f9/cmo-van-nuestras-nubes-8950362" target="_blank">
-                            <img style="height: 40%; width: auto;" src="../application/assets/img/contenido/estrategiasEducacion/redEducadoresCientificos/boletin/boletin_Mesadetrabajo1_8.png" class="img-responsive" alt="Cuento ¿Qué pasa al interior fr una nube?.">
+                            <img style="height: 100%; width: auto;" src="../application/assets/img/contenido/estrategiasEducacion/redEducadoresCientificos/boletin/boletin_Mesadetrabajo1_8.png" class="img-responsive" alt="Cuento ¿Qué pasa al interior fr una nube?.">
                         </a>
                     </div>  
                     <div class="content col-lg-6 col-md-12 col-sm-12 col-xs-12">
-                        <br><br><br><br><br>
+                        <br><br><br>
                         <h4>
                             Cuento ¿Qué pasa al interior de una nube?.
                         </h4>
