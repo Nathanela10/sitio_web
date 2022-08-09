@@ -81,7 +81,7 @@ if (!defined('BASEPATH')) exit('No direct script access allowed');
                         <br>
                         <p>
                             Durante la pandemia buscan estrategias para trabajar temas científicos, vinculandose a la estrategia de SCC. 
-                            Inicialmente se plantea la formulación de un proyecto sobre la disposición de aguas reciduales
+                            Inicialmente se plantea la formulación de un proyecto sobre la disposición de aguas reciduales.
                         </p>
                     </div>
                 </div>
@@ -201,7 +201,7 @@ if (!defined('BASEPATH')) exit('No direct script access allowed');
                         </h4>
                         <br>
                         <p>
-                            Resumen de las experiencias de los profes
+                            Resumen de las experiencias de los profes.
                         </p>
                     </div>
                 </div>
