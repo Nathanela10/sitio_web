@@ -19,7 +19,21 @@ if (!defined("BASEPATH")) exit("No direct script access allowed");
     <div class="container">
         <div class="blog-posts">
 
-            <div class="post featured row">
+        <div class="post featured row">
+                <div class="image col-lg-6 col-md-12 col-sm-12 col-xs-12">
+                    <a data-fancybox="videoGaleria" class="thumbnail" href="https://www.youtube.com/embed/yqSvnd_WWw0">
+                        <img style="height: 100%; width: 100%;" src="/sitio_web/application/assets/img/contenido/estrategiasEducacion/cuentosSIATA/PorQueTiemblaLATierra.png?v=0.0.1" alt="">
+                    </a>
+                </div>
+
+                <div class="content col-lg-6 col-md-12 col-sm-12 col-xs-12">
+                    <br><br><br>
+                    <h4>¿Por qué tiembla la tierra?</h4>
+                    <br>
+                </div>
+            </div>
+
+        <div class="post featured row">
                 <div class="image col-lg-6 col-md-12 col-sm-12 col-xs-12">
                     <a data-fancybox="videoGaleria" class="thumbnail" href="https://www.youtube.com/embed/kpJ9xThSJbw">
                         <img style="height: 100%; width: 100%;" src="/sitio_web/application/assets/img/contenido/estrategiasEducacion/cuentosSIATA/cuentosInteriorNube.jpg?v=0.0.1" alt="">
