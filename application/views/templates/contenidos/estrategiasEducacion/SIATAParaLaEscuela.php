@@ -21,7 +21,7 @@ if ( ! defined("BASEPATH")) exit("No direct script access allowed");
                 <div class="col-xs-12 col-sm-6 col-md-5 col-lg-5">
                     <div class="card card-default">
                         <div class="card-img">
-                            <a href="/sitio_web/application/views/templates/contenidos/estrategiasEducacion/cienciaEnUnMinuto.php" class="thumbnail">
+                            <a href="https://siata.gov.co/sitio_web/index.php/cienciaEnUnMinuto" class="thumbnail">
                                 <img src="/sitio_web/application/assets/img/contenido/estrategiasEducacion/siataParaLaEscuela/cienciaEnUnMinuto.png" >
                             </a>
                         </div>
@@ -35,7 +35,7 @@ if ( ! defined("BASEPATH")) exit("No direct script access allowed");
                 <div class="col-xs-12 col-sm-6 col-md-5 col-lg-5">
                     <div class="card card-default">
                         <div class="card-img">
-                            <a href="https://siata.gov.co/sitio_web/index.php/territorioAlAire2022" class="thumbnail">
+                            <a href="https://siata.gov.co/sitio_web/index.php/aprendeSIATA.php" class="thumbnail">
                                 <img src="/sitio_web/application/assets/img/contenido/estrategiasEducacion/siataParaLaEscuela/aprendeSIATA.png" >
                             </a>
                         </div>
@@ -48,6 +48,8 @@ if ( ! defined("BASEPATH")) exit("No direct script access allowed");
                 </div>
             </div>
         </div>
+        <a class="btn btn-primary" style="float:right; margin-right: 20px; color: white;" href="https://siata.gov.co/sitio_web/index.php/estrategiasEducacion#SIATAParaLaEscuela" role="button">Volver</a>
+        <br><br>
     </div>
 
     <?php $this->view("templates/header/importScripts") ?>
