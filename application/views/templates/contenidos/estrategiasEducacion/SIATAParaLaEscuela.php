@@ -51,6 +51,7 @@ if ( ! defined("BASEPATH")) exit("No direct script access allowed");
         <a class="btn btn-primary" style="float:right; margin-right: 20px; color: white;" href="https://siata.gov.co/sitio_web/index.php/estrategiasEducacion#SIATAParaLaEscuela" role="button">Volver</a>
         <br><br>
     </div>
+    </div>
 
     <?php $this->view("templates/header/importScripts") ?>
     <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>

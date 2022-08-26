@@ -265,8 +265,9 @@ if ( ! defined("BASEPATH")) exit("No direct script access allowed");
                 </div> 
             </div>
         </div>
-        <a class="btn btn-primary" style="color:white;float:right; margin-right: 20px;" href="https://siata.gov.co/sitio_web/index.php/estrategiasEducacion#SIATAParaLaEscuela" role="button">Volver</a>
+        <a class="btn btn-primary" style="color:white;float:right; margin-right: 20px;" href="https://siata.gov.co/sitio_web/index.php/SIATAParaLaEscuela" role="button">Volver</a>
         <br><br>
+    </div>
     </div>
 
     <?php $this->view("templates/header/importScripts") ?>
