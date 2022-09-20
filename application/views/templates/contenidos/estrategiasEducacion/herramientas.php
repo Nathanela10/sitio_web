@@ -117,58 +117,6 @@ if (!defined('BASEPATH')) exit('No direct script access allowed');
                 </div>
             </div>
         </div>
-        <div class="container text-center">
-            <br>
-            <h2>Juegos</h2>
-            <br>
-            <div class="row display-flex">
-                <div class="col-xs-4 col-xs-offset-2  col-md-3 col-md-offset-2">
-                    <div class="card card-default">
-                        <div class="card-img">
-                        <a href="https://siata.gov.co/sitio_web/index.php/sopaDeLetras" id="sopaDeletras">
-                            <img src="/sitio_web/application/assets/img/contenido/estrategiasEducacion/imagenSopaLetras.png" class="img-responsive">
-                        </a>
-                        </div>
-                        <div class="card-body">
-                        <div style="text-align: center;">
-                            <h3>Sopa de letras</h3>
-                            <p></p>
-                        </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xs-4 col-xs-offset-1 col-md-3 col-md-offset-2">
-                    <div class="card card-default">
-                        <div class="card-img">
-                        <a href="/sitio_web/application/assets/pdf/experienciasSIATA/Jenga.zip" id="jenga">
-                            <img src="/sitio_web/application/assets/img/contenido/estrategiasEducacion/imagenJenga.png" class="img-responsive">
-                        </a>
-                        </div>
-                        <div class="card-body">
-                        <div  style="text-align: center;">
-                            <h3>Jenga</h3>
-                            <p></p>
-                        </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- <div class="col-xs-12 col-md-4 col-md-offset-4">
-                    <div class="card card-default">
-                        <div class="card-img">
-                        <a href="/sitio_web/application/assets/pdf/experienciasSIATA/Jenga.zip" id="jenga">
-                            <img src="/sitio_web/application/assets/img/contenido/estrategiasEducacion/experienciasSIATA/jenga/jengaHerramientas.jpg" class="img-responsive">
-                        </a>
-                        </div>
-                        <div class="card-body">
-                        <div  style="text-align: center;">
-                            <h3>Jenga</h3>
-                            <p></p>
-                        </div>
-                        </div>
-                    </div>
-                </div> -->
-            </div>
-        </div>
         <!-- <div class="container text-center">
             <br>
             <h2>Cuentos SIATA</h2>

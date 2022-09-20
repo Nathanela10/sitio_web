@@ -187,7 +187,7 @@ if (!defined('BASEPATH')) exit('No direct script access allowed');
         asuntos científicos claves en  la gestión de riesgos. Acá podrás encontrar algunos de los 
         juegos que hemos desarrollado. 
     </p>
-    <a class="btn btn-primary" style="float:right; margin-right: 20px;" href="https://siata.gov.co/sitio_web/index.php/sopaDeLetras" role="button">Ver más</a>
+    <a class="btn btn-primary" style="float:right; margin-right: 20px;" href="https://siata.gov.co/sitio_web/index.php/aprenderJugando" role="button">Ver más</a>
     <br><br><br>
     <div id="cuentosSIATA" style="width: 100%">
         <img style="width: 100%" src="/sitio_web/application/assets/img/contenido/estrategiasEducacion/bannnerCuentosSIATA.jpg" alt="Cuentos SIATA">
